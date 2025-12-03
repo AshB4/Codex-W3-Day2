@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Goblin Name Generator</title>
+    
+</head>
+<body>
+    <section id="goblin-form">
+    <h2>Discover Your Goblin Name</h2>
+    <p>Fill out the form to generate your official Goblin name.</p>
+<div id="inputsForm">
+    <form id="goblinNameForm">
+
+        <h4 for="realName">Your Name:</h4>
+        <input type="text" id="realName" name="realName" required>
+
+        <h4 for="month">Birth Month:</h4>
+        <select id="month" name="month" required>
+            <option value="">Select...</option>
+            <option>January</option><option>February</option><option>March</option>
+            <option>April</option><option>May</option><option>June</option>
+            <option>July</option><option>August</option><option>September</option>
+            <option>October</option><option>November</option><option>December</option>
+        </select>
+
+        <h4 for="snack">Favorite Snack:</h4>
+        <input type="text" id="snack" name="snack" required>
+
+        <button type="button" onclick="generateGoblinName()">Reveal Goblin Name</button>
+       
+    </form>
+    <div id="goblin-name"></div>
+</section>
+
+<script src="app.js"></script>
+</body>
+</html>

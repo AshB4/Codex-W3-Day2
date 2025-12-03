@@ -1,0 +1,40 @@
+:root {
+    --Black : #000000;
+    --White : #FFFFFF;
+    --Gray : #777777;
+    --Magenta : #FF00FF;
+}
+
+body {
+    background-color: var(--Black);
+    color: var(--White);
+    font-family: Helvetica, Arial, sans-serif, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--Magenta);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2em;     
+}
+
+button {
+    background-color: var(--Gray);
+    color: var(--Magenta);
+    border: 1px solid var(--White);
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: bold;
+   
+}
+
+.goblin-name {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--Magenta);
+}
